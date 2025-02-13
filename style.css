@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fbe0e6; /* Douce couleur de fond rose */
+    background-color: #fbe0e6; /* Fond rose doux */
     text-align: center;
 }
 
@@ -23,7 +23,7 @@ body {
 
 h1.invitation {
     font-size: 2.5rem;
-    color: #e91e63; /* Couleur rose vif */
+    color: #e91e63;
     margin-bottom: 20px;
     animation: fadeIn 2s ease-in-out;
 }
@@ -43,7 +43,8 @@ h1.invitation {
     background-color: #d81b60;
 }
 
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+.spotify-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
 }
