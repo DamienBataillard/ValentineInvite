@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fbe0e6; /* Fond rose doux */
+    background-color: #fbe0e6;
     text-align: center;
 }
 
@@ -47,4 +47,24 @@ h1.invitation {
     margin-top: 30px;
     display: flex;
     justify-content: center;
+}
+
+.playlist-link {
+    margin-top: 20px;
+}
+
+.playlist-link a, .back-button a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #e91e63;
+    font-weight: bold;
+    border: 2px solid #e91e63;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.playlist-link a:hover, .back-button a:hover {
+    background-color: #e91e63;
+    color: white;
 }
